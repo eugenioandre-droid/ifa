@@ -3,51 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IFA</title>
-    <!-- Adicione seus links de CSS aqui, se houver -->
+    <title>IFA - CCMSCTM</title>
+    <!-- Substitua pelo caminho real do seu arquivo CSS externo se houver -->
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #141414;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            transition: background-color 0.5s ease;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        .btn-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 
-    <header class="cabecalho">
-        <!-- Conteúdo do cabeçalho -->
-    </header>
+    <div class="container">
+        <!-- Cabeçalho do site -->
+        <header class="cabecalho">
+            <h1>IFA - CCMSCTM</h1>
+        </header>
 
-    <main>
+        <!-- Seções de Conteúdo -->
         <section class="banner">
-            <!-- Conteúdo do banner -->
+            <p>Seja bem-vindo ao sistema.</p>
         </section>
 
         <div class="card">
-            <!-- Conteúdo do card -->
+            <section class="cursos">
+                <h2>Cursos Disponíveis</h2>
+                <!-- Conteúdo dos cursos pode ser inserido aqui -->
+            </section>
+
+            <section class="topicos">
+                <h3>Tópicos Recentes</h3>
+                <!-- Conteúdo dos tópicos pode ser inserido aqui -->
+            </section>
         </div>
 
-        <section class="carrossel">
-            <!-- Conteúdo do carrossel -->
-        </section>
-
-        <section class="topicos">
-            <!-- Conteúdo dos tópicos -->
-        </section>
-
         <section class="contato">
-            <!-- Conteúdo de contato -->
+            <p>Precisa de ajuda? Preencha o formulário oficial:</p>
+            <!-- Link gerado a partir do formulário oculto do Google Docs visto no seu DevTools -->
+            <a href="https://google.com" target="_blank" class="btn-link">
+                Acessar Formulário Google
+            </a>
         </section>
-    </main>
 
-    <hr>
-
-    <footer class="rodape">
-        <!-- Conteúdo do rodapé -->
-    </footer>
-
-    <!-- Scripts JS -->
-    <script src="https://googleapis.com"></script>
-    <script src="meuscript.js"></script>
-
-    <div class="testepedra">
-        <!-- Link corrigido dentro de uma tag de link (<a>) caso precise dele visualmente -->
-        <a href="https://google.com" target="_blank">Formulário Google</a>
+        <!-- Rodapé -->
+        <footer class="rodape">
+            <p>&copy; 2026 Eugênio André - Todos os direitos reservados.</p>
+        </footer>
     </div>
+
+    <!-- Scripts de funcionamento (Verifique se esses caminhos/arquivos existem na sua pasta) -->
+    <script src="https://github.io"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
